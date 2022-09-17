@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Mesto" />
+    <meta name="description" content="Mesto Россия" />
+    <meta name="author" content="Mikhail" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Mesto Russia</title>
+  </head>
+  <body class="page">
+    <div class="container">
+      <header class="header">
+        <img class="header__logo" src="./images/logo.svg" alt="логотип" />
+      </header>
+      <main class="content">
+        <section class="profile">
+          <div class="profile__content">
+            <img
+              src="./images/avatar.png"
+              alt="avatar"
+              class="profile__avatar"
+            />
+            <div class="profile__info">
+              <h1 class="profile__info-title">Жак-Ив Кусто</h1>
+              <div class="profile__info-edit"></div>
+              <p class="profile__info-about">Исследователь океана</p>
+            </div>
+            <button class="profile__info-button"></button>
+          </div>
+        </section>
+        <section class="card">
+          <ul class="card__content">
+            <li class="card__item">
+              <img
+                src="./images/item-one.png"
+                alt=""
+                class="card__content-img"
+              />
+              <div class="card__description">
+                <h3 class="card__description-title">Карачаевск</h3>
+                <div class="card__description-img"></div>
+              </div>
+            </li>
+            <li class="card__item">
+              <img
+                src="./images/item-second.png"
+                alt=""
+                class="card__content-img"
+              />
+              <div class="card__description">
+                <h3 class="card__description-title">Гора Эльбрус</h3>
+                <div class="card__description-img"></div>
+              </div>
+            </li>
+            <li class="card__item">
+              <img
+                src="./images/item-three.png"
+                alt=""
+                class="card__content-img"
+              />
+              <div class="card__description">
+                <h3 class="card__description-title">Домбай</h3>
+                <div class="card__description-img"></div>
+              </div>
+            </li>
+            <li class="card__item">
+              <img
+                src="./images/item-four.png"
+                alt=""
+                class="card__content-img"
+              />
+              <div class="card__description">
+                <h3 class="card__description-title">Гора Эльбрус</h3>
+                <div class="card__description-img"></div>
+              </div>
+            </li>
+            <li class="card__item">
+              <img
+                src="./images/item-five.png"
+                alt=""
+                class="card__content-img"
+              />
+              <div class="card__description">
+                <h3 class="card__description-title">Домбай</h3>
+                <div class="card__description-img"></div>
+              </div>
+            </li>
+            <li class="card__item">
+              <img
+                src="./images/item-six.png"
+                alt=""
+                class="card__content-img"
+              />
+              <div class="card__description">
+                <h3 class="card__description-title">Карачаево-Черкессия</h3>
+                <div class="card__description-img"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer class="footer">
+        <h3 class="footer__title">© 2020 Mesto Russia</h3>
+      </footer>
+      <div class="popup">
+        <div class="popup__container">
+          <form action="#" class="popup__form">
+            <h2 class="popup__form-title">Редактировать профиль</h2>
+            <input class="popup__form-name" type="text" />
+            <input class="popup__form-about" type="text" />
+            <button class="popup__form-button" type="submit">Сохранить</button>
+            <button class="popup__form-close"></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

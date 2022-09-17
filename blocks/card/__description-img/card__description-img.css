@@ -1,0 +1,15 @@
+.card__description-img {
+  background-image: url(../../../images/like.svg);
+  width: 22px;
+  height: 19px;
+  cursor: pointer;
+}
+
+.card__description-img:hover {
+  opacity: 0.6;
+}
+
+.card__description-img:active {
+  background-image: url(../../../images/like_add.svg);
+  opacity: 1;
+}
